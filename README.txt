@@ -32,7 +32,7 @@ It is expected that:
 	point
 	- If any input arguments are given that are not any of the expected ones,
 	including -n, -c, -s, -p, -L<n>, then the program writes to std::err
-	as: "Error: Non-valid input argument(s)\nUsage: bfreq [-n | -c] -s -c [-L<n>]\nTerminating\n"
+	and define proper parameters
 	- The code does not check the upper bound for numbers. For example,
 	while the code does ensure that there are always two spaces between the
 	frequency and the hex-value in the default behavior, it does not prevent the
