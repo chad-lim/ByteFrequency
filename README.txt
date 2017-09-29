@@ -1,4 +1,4 @@
-ByteFrequency
+# ByteFrequency
 
 This program is designed to take in some input file and obtain the frequency of the 256 possible characters. 
 It creates a table of pairs made up of a hexadecimal value from 0x00 to 0xff and their associated 
@@ -6,7 +6,7 @@ frequencies in the input file. So far this works with most .txt files and source
 
 --------------------------------------------------------------------------------------
 
-Usage:
+## Usage:
 bfreq [-n | -c] -s -p [-L<n>]
 
 -n: Omit the hexadecimal value and the spaces between the value and the frequency
@@ -16,10 +16,7 @@ bfreq [-n | -c] -s -p [-L<n>]
 
 --------------------------------------------------------------------------------------
 
-# THIS README DESCRIBES THE PROGRAM
-# KNOWN FUNCTIONALITY / NON-FUNCTIONALITY, AND KNOWN BUGS
-
-FUNCTIONALITY:
+## KNOWN FUNCTIONALITY / NON-FUNCTIONALITY:
 It is expected that:
 	- The code can read in a text file as an input to be used by the program
 	- The program can properly obtain and decipher input arguments, which
@@ -57,7 +54,7 @@ It is expected that:
 	frequency values from exceeding 999, instead allowing higher numbers to extend
 	to the right.
 
-BUGS
+## KNOWN-BUGS
 	- The code does not function when certain files are input to it. I have not
 	been able to pinpoint the exact reason for this. At first I thought that
 	maybe the size of my text files was too big, having too much data input.
