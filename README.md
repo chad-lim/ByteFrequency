@@ -17,7 +17,7 @@ bfreq [-n | -c] -s -p [-L<n>]
 --------------------------------------------------------------------------------------
 
 ### Known Functionality / Non-Functionality:
-It is expected that:
+
 	- The code can read in a text file as an input to be used by the program
 	- The program can properly obtain and decipher input arguments, which
 	determine if spaces are removed, commas are used, percents are used, or
@@ -55,6 +55,7 @@ It is expected that:
 	to the right.
 
 ### Known-Bugs
+
 	- The code does not function when certain files are input to it. I have not
 	been able to pinpoint the exact reason for this. At first I thought that
 	maybe the size of my text files was too big, having too much data input.
