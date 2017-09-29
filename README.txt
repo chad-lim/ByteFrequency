@@ -1,3 +1,19 @@
+ByteFrequency
+
+This program is designed to take in some input file and obtain the frequency of the 256 possible characters. It creates a table of pairs made up of a hexadecimal value from 0x00 to 0xff and their associated frequencies in the input file. So far this works with most .txt files and source-code files, but does not properly take executables.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Usage:
+bfreq [-n | -c] -s -p [-L<n>]
+
+-n: Omit the hexadecimal value and the spaces between the value and the frequency
+-c: Use a comma instead of spaces
+-s: Sort the output by frequency 
+-p: Use percents to represent frequency instead of the exact counts
+
+----------------------------------------------------------------------------------------------------------------------------
+
 # THIS README DESCRIBES THE PROGRAM
 # KNOWN FUNCTIONALITY / NON-FUNCTIONALITY, AND KNOWN BUGS
 
